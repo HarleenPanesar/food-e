@@ -1,0 +1,155 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MENU"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/samosa"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Samosa"
+                android:textSize="25sp"
+                android:textColor="@android:color/black"
+                android:textAlignment="center"
+                android:layout_gravity="center_vertical|center_horizontal"/>
+            <View
+                android:layout_width="7dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"/>
+
+            <TextView
+                android:id="@+id/shakes"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Shakes"
+                android:textSize="25sp"
+                android:textColor="@android:color/black"
+                android:textAlignment="center"
+                android:layout_gravity="center_vertical|center_horizontal"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="7dp"
+            android:background="@android:color/white"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/sandwich"
+                android:clickable="true"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Sandwich"
+                android:textSize="25sp"
+                android:textColor="@android:color/black"
+                android:textAlignment="center"
+                android:layout_gravity="center_vertical|center_horizontal"/>
+
+            <View
+                android:layout_width="7dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"/>
+
+            <TextView
+                android:id="@+id/drinks"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Drinks"
+                android:textSize="25sp"
+                android:textColor="@android:color/black"
+                android:textAlignment="center"
+                android:layout_gravity="center_vertical|center_horizontal"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="7dp"
+            android:background="@android:color/white"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/patties"
+                android:clickable="true"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Patties"
+                android:textSize="25sp"
+                android:textColor="@android:color/black"
+                android:textAlignment="center"
+                android:layout_gravity="center_vertical|center_horizontal"/>
+
+            <View
+                android:layout_width="7dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"/>
+
+            <TextView
+                android:id="@+id/tea"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Tea"
+                android:textSize="25sp"
+                android:textColor="@android:color/black"
+                android:textAlignment="center"
+                android:layout_gravity="center_vertical|center_horizontal"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/checkout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_gravity="right"
+            android:layout_marginRight="15dp"
+            android:text="Checkout"
+            android:textSize="23sp"
+            android:textColor="@android:color/black"
+            android:textAlignment="center"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
